@@ -1,0 +1,30 @@
+step 1.create/clone a repo on your PC
+
+step 2.edit files or folders
+
+step 3.commit to master or some other branches
+(all the changes on files will be detected, while git doesn't add any empty files to the online repo)
+(It's convenient for you to commit when only one file is changed)
+(Any time  you commit, write some description) 
+
+step 4.push current repo to git
+
+step 5.repeat step 3 and 4.
+
+以下是中文版
+git desktop并没有语言选项，所以没有用过git的人可能会有些疑惑
+
+首先，你可以创建（create）或者克隆（clone）一个仓库，
+创建的仓库需要发布（publish）才能在网页上被看见
+
+其次，你已经具有了一个本地仓库，你可以任意修改或者添加文件
+
+完成部分或全部修改时，可以提交到相应的主干（master）或分支（branch）
+（此处，文件修改并没有被提交至远程仓库，只是被保存在缓冲空间）
+（提交的时候，可以添加描述信息（description），最好写因为你不一定记得住修改内容）
+（最好是每次完成了一个文件的修改就提交一次，方便出问题之后回滚）
+（PS：空的文件夹是不会被检测到的，无论检测多少次都用，就是没有发生改变的标志）
+
+最后，上传（push）至远程仓库，此时你可以打开网页端验证修改情况
+
+重复后面两步，就可以实现文件的有效管理了
